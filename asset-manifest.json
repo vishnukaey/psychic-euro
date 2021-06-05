@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/psychic-euro/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/psychic-euro/static/js/main.ab7b565c.chunk.js",
-    "main.js.map": "/psychic-euro/static/js/main.ab7b565c.chunk.js.map",
+    "main.js": "/psychic-euro/static/js/main.55dd8181.chunk.js",
+    "main.js.map": "/psychic-euro/static/js/main.55dd8181.chunk.js.map",
     "runtime-main.js": "/psychic-euro/static/js/runtime-main.bc81b0b5.js",
     "runtime-main.js.map": "/psychic-euro/static/js/runtime-main.bc81b0b5.js.map",
-    "static/js/2.4c570ce2.chunk.js": "/psychic-euro/static/js/2.4c570ce2.chunk.js",
-    "static/js/2.4c570ce2.chunk.js.map": "/psychic-euro/static/js/2.4c570ce2.chunk.js.map",
+    "static/js/2.ed470269.chunk.js": "/psychic-euro/static/js/2.ed470269.chunk.js",
+    "static/js/2.ed470269.chunk.js.map": "/psychic-euro/static/js/2.ed470269.chunk.js.map",
     "static/js/3.c421b5ba.chunk.js": "/psychic-euro/static/js/3.c421b5ba.chunk.js",
     "static/js/3.c421b5ba.chunk.js.map": "/psychic-euro/static/js/3.c421b5ba.chunk.js.map",
     "index.html": "/psychic-euro/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/psychic-euro/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.4c570ce2.chunk.js.LICENSE.txt": "/psychic-euro/static/js/2.4c570ce2.chunk.js.LICENSE.txt",
+    "static/js/2.ed470269.chunk.js.LICENSE.txt": "/psychic-euro/static/js/2.ed470269.chunk.js.LICENSE.txt",
     "static/media/bg.96e7de46.jpg": "/psychic-euro/static/media/bg.96e7de46.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bc81b0b5.js",
-    "static/js/2.4c570ce2.chunk.js",
+    "static/js/2.ed470269.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.ab7b565c.chunk.js"
+    "static/js/main.55dd8181.chunk.js"
   ]
 }
