@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/psychic-euro/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/psychic-euro/static/js/main.bbe551bd.chunk.js",
-    "main.js.map": "/psychic-euro/static/js/main.bbe551bd.chunk.js.map",
+    "main.js": "/psychic-euro/static/js/main.b92b237d.chunk.js",
+    "main.js.map": "/psychic-euro/static/js/main.b92b237d.chunk.js.map",
     "runtime-main.js": "/psychic-euro/static/js/runtime-main.bc81b0b5.js",
     "runtime-main.js.map": "/psychic-euro/static/js/runtime-main.bc81b0b5.js.map",
     "static/js/2.ed470269.chunk.js": "/psychic-euro/static/js/2.ed470269.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.bc81b0b5.js",
     "static/js/2.ed470269.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.bbe551bd.chunk.js"
+    "static/js/main.b92b237d.chunk.js"
   ]
 }
