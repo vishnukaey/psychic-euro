@@ -44,11 +44,11 @@ const Home = props => {
         <CssBaseline />
         <Grid container item xs={12} sm={12} component="main" className={classes.main} direction="row" style={{ height: window.innerWidth >= 650 ? '90vh' : '80vh' }}>
           <Grid container item xs={12} sm={12} >
-          <Grid item alignContent="flex-end">
-          <img src={ball} alt="soccer" style= {{height:'70px'}}/>
-          </Grid>
+            <Grid item alignContent="flex-end">
+              <img src={ball} alt="soccer" style={{ height: '70px' }} />
+            </Grid>
             <Typography variant={window.innerWidth >= 650 ? "h3" : "h5"} gutterBottom style={{ color: 'rgba(255, 255, 255, 0.9)', backgroundColor: 'rgba(6, 20, 40, 0.7)', textAlign: 'center', marginRight: '10px' }}>
-              <Wave text= "Euro Prediction League" effect="pop" effectChange='2' iterations='1'/>
+              <Wave text="Euro Prediction League" effect="pop" effectChange='2' iterations='1' />
             </Typography>
             {/* {props?.db?.score?.count > 0 && <Typography variant="h6" component="h1" style={{ color: 'white'}}>
                 Score Board
@@ -56,28 +56,28 @@ const Home = props => {
           </Grid>
           <Grid container item xs={12} sm={12} >
             <Grid container item xs={6} sm={6} >
-            <Grid container item xs={12} direction="row" style={{ backgroundColor: 'white', margin: '1px', marginRight: '10px' }} >
-                  <Typography variant="body1" style={{ color: 'rgba(6, 20, 40, 0.7)', width: '80%', paddingLeft: '10px' }}>
-                    {'Knockout Score'}
-                  </Typography>
-                </Grid>
-              {props?.db?.knockout?.sort((a, b) => (b.Score - a.Score)).map(data => (
+              <Grid container item xs={12} direction="row" style={{ backgroundColor: 'white', margin: '1px', marginRight: '10px' }} >
+                <Typography variant="body1" style={{ color: 'rgba(6, 20, 40, 0.7)', width: '80%', paddingLeft: '10px' }}>
+                  {'Knockout Score'}
+                </Typography>
+              </Grid>
+              {props?.db?.score?.sort((a, b) => (b.knockout - a.knockout)).map(data => (
                 <Grid container item xs={12} key={data.display} direction="row" style={{ backgroundColor: 'rgba(6, 20, 40, 0.7)', margin: '1px', marginRight: '10px' }} >
                   <Typography variant="body1" style={{ color: 'white', width: '80%', paddingLeft: '10px' }}>
                     {data.display}
                   </Typography>
                   <Typography variant="body1" style={{ color: 'white', width: '20%' }}>
-                    {data.Score ? data.Score : 0}
+                    {data.Score ? data.knockout : 0}
                   </Typography>
                 </Grid>
               ))}
             </Grid>
             <Grid container item xs={6} sm={6} >
-            <Grid container item xs={12} direction="row" style={{ backgroundColor: 'white', margin: '1px', marginRight: '10px' }} >
-                  <Typography variant="body1" style={{ color: 'rgba(6, 20, 40, 0.7)', width: '80%', paddingLeft: '10px' }}>
-                    {'Overall Score'}
-                  </Typography>
-                </Grid>
+              <Grid container item xs={12} direction="row" style={{ backgroundColor: 'white', margin: '1px', marginRight: '10px' }} >
+                <Typography variant="body1" style={{ color: 'rgba(6, 20, 40, 0.7)', width: '80%', paddingLeft: '10px' }}>
+                  {'Overall Score'}
+                </Typography>
+              </Grid>
               {props?.db?.score?.sort((a, b) => (b.Score - a.Score)).map(data => (
                 <Grid container item xs={12} key={data.display} direction="row" style={{ backgroundColor: 'rgba(6, 20, 40, 0.7)', margin: '1px', marginRight: '10px' }} >
                   <Typography variant="body1" style={{ color: 'white', width: '80%', paddingLeft: '10px' }}>
@@ -132,6 +132,6 @@ Home.propTypes = {
   })
 };
 
-export default withGoogleSheets(['score', 'knockout'])(Home);
+export default withGoogleSheets('score')(Home);
 // export default Home;
 
