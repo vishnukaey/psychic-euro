@@ -13,7 +13,7 @@ import ball from './images/ball1.gif'
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'block',
-    width: '100%'
+    width: '100%',
   },
   main: {
     paddingTop: theme.spacing(8),
